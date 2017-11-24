@@ -7,7 +7,6 @@ export default class MyTweet extends React.Component {
   }
 
   render () {
-    // use linkProps if you want to pass attributes to all links
     const linkProps = {target: '_blank', rel: 'noreferrer'}
 
     return (

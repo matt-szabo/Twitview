@@ -45,7 +45,7 @@ class Twitter extends React.Component {
 
 
           let query = tweetName || this.state.id;
-          let url = `https://presidentserver.herokuapp.com/?id=${query}`;
+          let url = `http://localhost:4000?id=${query}`;
 
 
           fetch(url)
@@ -92,22 +92,24 @@ class Twitter extends React.Component {
         return (
           <div>
             <header className="main-header">
-              {
                 <div>
                 <h1>{this.state.id}</h1>
-
-                  <span> <h5>vs</h5> <h5>{(this.state.id === 'realDonaldTrump') ? 'HillaryClinton': 'realDonaldTrump'}</h5></span>
                 </div>
-
-              }
-
+                <div className="verto">
+                <div>
+                <h4>&nbsp;&nbsp;vs&nbsp;&nbsp;</h4>
+                </div>
+                <div>
+                <h4>{(this.state.id === 'realDonaldTrump') ? 'HillaryClinton': 'realDonaldTrump'}</h4>
+                </div>
+                </div>
             </header>
-            <div className="repo-page">
+            <div>
               <Toggle name={this.state.id}  click={this.onClick}></Toggle>
                 <Infinite
                     isInfiniteLoading={this.state.loading} onInfiniteLoad={this.fetchData} useWindowAsScrollContainer
                     elementHeight={200} infiniteLoadBeginEdgeOffset={this.state.spinner}
-                    loadingSpinnerDelegate={<div>LOADING TWEETS</div>} className="infinit">
+                    loadingSpinnerDelegate={<div></div>} className="infinit">
                   {this.state.repo.map((item) => {
                     return <MyTweet key={item.id} data={item}/>})}
                 </Infinite>
