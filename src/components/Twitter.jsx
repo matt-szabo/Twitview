@@ -1,12 +1,15 @@
 import React from 'react';
 import MyTweet from './MyTweet';
 import Toggle from './Toggle';
-import './Twitter.css';
 var Infinite = require('react-infinite');
+import './Twitter.css';
 
 
-
-
+//
+// Main Twitter engine component which calls
+// back-end and updates when state of the desired twitter user is toggled.
+// Code is in place to use React Infinite as an improvement to the api display
+// if the search results are optimized in the future.
 
 
 class Twitter extends React.Component {
@@ -14,9 +17,7 @@ class Twitter extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-
-            page: 1,
-            loading: false,
+          loading: false,
             spinner:100,
             stop: false,
             repo: [],
@@ -67,7 +68,6 @@ class Twitter extends React.Component {
                 this.setState({
                   repo: data,
                   loading: false,
-                  page: this.state.page + 1
                 });
               }
 
@@ -93,7 +93,7 @@ class Twitter extends React.Component {
         return (
           <div>
             <header className="main-header">
-                <div>
+                <div className="filler">
                 <h1>{this.state.id}</h1>
                 </div>
                 <div className="verto">

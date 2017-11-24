@@ -1,3 +1,6 @@
+/*Main css file that handles colour scheme and layout as well as responsiveness.*/
+
+
 body{
 
     background-color: #BF0A30;
@@ -17,6 +20,7 @@ body{
     align-items: center;
     margin:0.2em;
 }
+
 
 h1 {
     font-size: 3em;
@@ -40,7 +44,7 @@ button{
     padding: .6rem 1.3rem .6rem 1.3rem;
     text-decoration: none;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 div .tweet {
@@ -53,5 +57,75 @@ div .tweet {
     display: flex;
     vertical-align: bottom;
     margin-bottom: -1.3em;
+
+}
+
+
+@media only screen and (max-width:700px) {
+
+
+    h1 {
+        font-size: 3em;
+        vertical-align: middle;
+        margin-top: 1em;
+        margin-bottom: 0em;
+
+    }
+
+    h4 {
+        font-size: 1em;
+        vertical-align: middle;
+    }
+
+
+    .filler{
+        margin-bottom: 0.1em;
+    }
+
+    .verto{
+        margin-bottom: 0em;
+
+    }
+
+    header.main-header{
+
+        margin: 0em 0em;
+    }
+
+
+}
+
+@media only screen and (max-width:476px) {
+
+
+    h1 {
+        font-size: 2.5em;
+        vertical-align: middle;
+        margin-top: 1.4em;
+
+    }
+
+    h4 {
+        font-size: 1em;
+        vertical-align: middle;
+    }
+
+
+    .filler{
+        margin-bottom: 0.1em;
+    }
+
+    header.main-header{
+
+        margin: 0em 0em;
+    }
+
+    .verto{
+        display: flex;
+        vertical-align: middle;
+        margin-bottom: 0em;
+
+    }
+
 
 }
