@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572375d0-89f7-4773-86c3-a838fec9724b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MyTweet.jsx" afterPath="$PROJECT_DIR$/src/components/MyTweet.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Twitter.css" afterPath="$PROJECT_DIR$/src/components/Twitter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Twitter.jsx" afterPath="$PROJECT_DIR$/src/components/Twitter.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Twitter.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Twitter.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Twitter.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="735">
               <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -34,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Twitter.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Twitter.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Twitter.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="512">
+              <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -154,8 +148,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Toggle.jsx" />
         <option value="$PROJECT_DIR$/src/components/MyTweet.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Twitter.css" />
         <option value="$PROJECT_DIR$/src/components/Twitter.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Twitter.css" />
       </list>
     </option>
   </component>
@@ -303,12 +297,12 @@
       <workItem from="1511491699360" duration="8861000" />
       <workItem from="1511534865564" duration="2393000" />
       <workItem from="1511538433650" duration="3401000" />
-      <workItem from="1511543389914" duration="21000" />
+      <workItem from="1511543389914" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14676000" />
+    <option name="totallyTimeSpent" value="14773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="111" y="108" width="1023" height="737" extended-state="0" />
@@ -727,21 +721,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Twitter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Twitter.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="735">
           <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Twitter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
