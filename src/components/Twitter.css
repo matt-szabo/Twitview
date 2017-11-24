@@ -1,0 +1,31 @@
+body{
+
+    background-color: #0199d9;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+button{
+
+    background: #db9815;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 2.8rem;
+    -moz-border-radius: 2.8rem;
+    border-radius: 2.8rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: .8rem 1.3rem .8rem 1.3rem;
+    text-decoration: none;
+    border: none;
+    margin: 4px;
+}
+
+div .tweet {
+    margin-bottom: 10px;
+}
