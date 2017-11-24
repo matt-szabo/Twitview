@@ -45,7 +45,7 @@ class Twitter extends React.Component {
 
 
           let query = tweetName || this.state.id;
-          let url = `http://localhost:4000/?id=${query}`;
+          let url = `https://presidentserver.herokuapp.com/?id=${query}`;
 
 
           fetch(url)
