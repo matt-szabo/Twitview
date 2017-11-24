@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572375d0-89f7-4773-86c3-a838fec9724b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Layout.jsx" afterPath="$PROJECT_DIR$/src/components/Layout.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MyTweet.jsx" afterPath="$PROJECT_DIR$/src/components/MyTweet.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Toggle.jsx" afterPath="$PROJECT_DIR$/src/components/Toggle.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Twitter.css" afterPath="$PROJECT_DIR$/src/components/Twitter.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Twitter.jsx" afterPath="$PROJECT_DIR$/src/components/Twitter.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Twitter.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Twitter.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Twitter.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+            <state relative-caret-position="572">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -46,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Toggle.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Toggle.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Toggle.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -131,9 +123,9 @@
         <option value="$PROJECT_DIR$/src/components/Layout.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Twitter.jsx" />
         <option value="$PROJECT_DIR$/src/components/Twitter.css" />
         <option value="$PROJECT_DIR$/src/components/Toggle.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Twitter.jsx" />
       </list>
     </option>
   </component>
@@ -278,12 +270,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511491697146</updated>
-      <workItem from="1511491699360" duration="8513000" />
+      <workItem from="1511491699360" duration="8710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8513000" />
+    <option name="totallyTimeSpent" value="8710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2270" y="-148" width="1023" height="1040" extended-state="0" />
@@ -446,21 +438,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Twitter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Toggle.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Twitter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
